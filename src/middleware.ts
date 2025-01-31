@@ -16,5 +16,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/home', '/monitor', '/dokumen', '/user', '/logout', '/home/dokumen', '/home/dokument', '/profil/about', '/profil/setting', '/user/useradmin'], // Route yang ingin dilindungi
+  matcher: [], // Route yang ingin dilindungi
 };
